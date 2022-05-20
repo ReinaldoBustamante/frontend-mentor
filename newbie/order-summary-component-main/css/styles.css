@@ -1,0 +1,113 @@
+:root{
+    --main-bg: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --price-card: hsl(225, 100%, 98%);
+    --desaturated-blue: hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Red Hat Display', sans-serif;
+}
+.order-summary{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center; 
+    background-color: var(--main-bg);
+    background-image: url("../images/pattern-background-desktop.svg");
+    background-repeat:repeat-x;
+    font-size: 1.6rem;
+}
+.card-order{
+    width: 40rem;
+    height: 65rem;
+    background-color: white;
+    border-radius: 2rem;
+    box-shadow: -.2rem 1rem .5rem 0rem rgba(0,0,0,0.08);
+}
+.card-order__img{
+    width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.container{
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2rem;
+}
+.container__title{
+    text-align: center;
+    font-size: 2.6rem;
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+.container__paragraph{
+   text-align: center;
+   color: var(--desaturated-blue);
+   font-weight: 500;
+}
+.annual-plan{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: var(--price-card);
+    border-radius: 1rem;
+    justify-content: space-between;
+}
+.annual-plan-left{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.annual-plan-left__img{
+    width: 5rem;
+    height: 5rem;
+}
+.annual-plan-left-price{
+    display: flex;
+    flex-direction: column;
+}
+.annual-plan-left-price__title{
+    font-size: 1.6rem;
+    color: var(--dark-blue);
+    font-weight: 900;
+}
+.annual-plan-left-price__paragraph{
+    color: var(--desaturated-blue);
+    font-weight: 500;
+}
+.annual-plan__change{
+   color: var(--bright-blue);
+}
+.annual-plan__change:hover{
+    opacity: 0.5;
+}
+.container__button{
+    height: 4.5rem;
+    border: none;
+    background-color: var(--bright-blue);
+    color: white;
+    font-weight: 900;
+    border-radius: 1.2rem;
+    cursor: pointer;
+    box-shadow: -.2rem 1rem .5rem 0rem rgba(0,0,0,0.37);
+}
+.container__button--primary:hover {
+    opacity: 0.5;
+}
+.container__button--secondary{
+    background-color: white;
+    box-shadow: none;
+    color: var(--desaturated-blue);
+}
+.container__button--secondary:hover{
+    color: var(--dark-blue);
+}
