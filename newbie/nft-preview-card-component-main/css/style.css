@@ -39,28 +39,29 @@ body{
 }
 .figure{
     position: relative;
+    margin-bottom: 2rem;
 }
 .figure__item{
     width: 100%;
 }
 
 .figure img:nth-child(1){
-    position: inherit;
+    position: relative;
     z-index: 4;
+    border-radius: .8rem;
     cursor: pointer;
 }
 .figure img:nth-child(2){
-    width: 100%;
     position: absolute;
     left: 0;
     z-index: 3;
     background-color: var(--cyan);
+    border-radius: 1rem;
     padding: 12rem;
     opacity: 0.5;
 
 }
 .figure img:nth-child(1):hover{
-    position: inherit;
     z-index: 2;
 }
 
