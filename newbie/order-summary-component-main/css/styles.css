@@ -89,6 +89,7 @@ html{
 }
 .annual-plan__change:hover{
     opacity: 0.5;
+    text-decoration: none;
 }
 .container__button{
     height: 4.5rem;
