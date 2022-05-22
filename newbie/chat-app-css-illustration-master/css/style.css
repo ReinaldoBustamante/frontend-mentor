@@ -37,7 +37,7 @@ body{
 }
 .main-header{
     background: var(--chat-left-color);
-    height: 50vh;
+    height: 50rem;
     width: 50%;
     border-bottom-right-radius: 100%;
     position: absolute;
