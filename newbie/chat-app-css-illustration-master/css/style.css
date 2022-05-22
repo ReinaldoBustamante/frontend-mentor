@@ -204,7 +204,7 @@ body{
     border: none;
     color: var(--place-holder-color);
 }
-.text__buttom{
+.text__button{
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
