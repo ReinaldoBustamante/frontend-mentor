@@ -1,0 +1,32 @@
+.main-header{
+    width: 55rem;
+    height: 75rem;
+    border-radius: 0;
+    border-bottom-left-radius: 30rem;
+    border-bottom-right-radius: 30rem;
+    position: absolute;
+    left: -10rem;
+}
+.header{
+    width: 60%;
+}
+.phone{
+    margin-top: 10rem;
+   
+}
+.main-container{
+    width: 30%;
+    position: absolute;
+    right: 25%;
+    top: 40rem;
+    bottom: 50%;
+    align-items: flex-start;
+}
+.main-container__title{
+    font-size: 5rem;
+}
+.main-container__paragraph{
+    text-align: start;
+    padding: 0;
+    width: 40rem;
+}
