@@ -27,9 +27,9 @@ body{
     width: 33rem;
     margin: 0 auto;
     margin-top: 6rem;
-    background-color: red;
     background-color: var(--dark-desaturated-blue);
     border-radius: 1.2rem;
+    
     
 
 }
@@ -39,13 +39,15 @@ header{
     border-top-right-radius: 1.2rem;
     background-color: var(--soft-violet);
     height: 24rem;
+    filter: contrast(150%);
 }
 header figure img{
     width: 100%;
     border-top-left-radius: 1.2rem;
     border-top-right-radius: 1.2rem;
-    opacity: 0.5;
+    opacity: 0.4;
     height: 24rem;
+    
 }
 .info{
     padding: 3rem;
