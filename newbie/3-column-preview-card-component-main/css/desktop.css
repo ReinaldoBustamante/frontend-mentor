@@ -1,0 +1,24 @@
+.main-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.cars{
+    width: 320px;
+    align-items: start;
+    padding: 54px;
+}
+.cars--sedan{
+    border-radius: 0;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+}
+.cars--luxury{
+    border-radius: 0;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+.cars__btn{
+    margin-top: 60px
+}
