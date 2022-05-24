@@ -1,0 +1,12 @@
+.top-img-bg{
+    position: absolute;
+    left: -250px;
+    bottom: 50%;
+    z-index: 0;
+}
+.bot-img-bg{
+    position: absolute;
+    right: -250px;
+    top: 50%;
+
+}

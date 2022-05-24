@@ -1,0 +1,125 @@
+:root{
+    /*Width*/
+    --mobile: 375px;
+    --desktop: 1440px;
+    /*Color*/
+    --dark-cyan: hsl(185, 75%, 39%);
+    --very-dark-desaturated-blue: hsl(229, 23%, 23%);
+    --dark-grayish-blue: hsl(227, 10%, 46%);
+    --dark-gray: hsl(0, 0%, 59%);
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+body{
+    font-size: 1.6rem;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--dark-cyan);
+    display: grid;
+    place-content: center;
+}
+.top-img-bg{
+    position: absolute;
+    left: -700px;
+    bottom: 50%;
+    z-index: 0;
+}
+.bot-img-bg{
+    position: absolute;
+    right: -700px;
+    top: 50%;
+
+}
+.profile-card-component{
+    width: var(--mobile);
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+.header{
+    width: 100%;
+    height: 120px;
+}
+.header figure{
+    width: 100%;
+
+}
+.header__img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.header__photo{
+    border-radius: 50%;
+    border: 6px solid white;
+    position: relative;
+    top: -60px;
+    left: 113px;
+}
+.card{
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+.user{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 1px gainsboro solid;
+    padding-bottom: 24px;
+    gap: 8px;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.user-info__name{
+    color: var(--very-dark-desaturated-blue);
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+.user-info__age{
+    font-size: 1.8rem;
+    color: var(--dark-grayish-blue);
+}
+.user__locate{
+    color: var(--dark-grayish-blue);
+    font-weight: 400;
+}
+.activity{
+    display: flex;
+    gap: 55px;
+    padding: 30px;
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+.item__title{
+    order: 2;
+    color: var(--dark-grayish-blue);
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.item__value{
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--very-dark-desaturated-blue);
+}
